@@ -4,6 +4,8 @@ public class EcommerceSearch {
 
     public static void main(String[] args) {
 
+        // Sample product data (sorted alphabetically by product name)
+
         Product[] products = new Product[8];
         products[0] = new Product("P001", "Backpack", "Bags");
         products[1] = new Product("P002", "Desk Lamp", "Furniture");
@@ -77,3 +79,6 @@ public class EcommerceSearch {
         sc.close();
     }
 }
+
+
+
